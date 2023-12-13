@@ -1,5 +1,5 @@
+import { redirect } from "next/navigation";
+
 export default function Page() {
-  return (
-    <main className=""></main>
-  )
+  return redirect('/database')
 }
